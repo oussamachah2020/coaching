@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    overflow: visible;
+}
+.header{
+    background-color: rgba(211, 211, 211, 0.445);
+    transform: translateY(-15px);
+    padding-bottom: 80px;
+    background-image: url("image/yoga.jpeg");
+    background-size: cover;
+}
+.topnav {
+    background-color: rgba(180, 178, 178, 0.876);
+    padding-bottom: 50px;
+}
+h4.logo {
+    padding: 40px 0 0 40px;
+    color: rgba(165, 42, 42, 0.884);
+    font-size: 18px;
+}
+h6.sub_logo {
+    padding: 0 0 30px 40px;
+    transform: translateY(-15px);
+    color: rgb(207, 91, 91);
+    border-bottom: 2px solid black;
+}
+li {
+    float: left;
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    font-size: 12px;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li a:hover {
+    color: rgba(51, 50, 50, 0.664);
+}
+#user {
+    padding-left: 5px;
+}
+#user img {
+    position: relative; 
+    bottom: 5px;
+}
+ol span {
+    position: relative;
+    bottom: 8px;
+    padding-left: 8px;
+}
+.contact {
+  float: right;
+  padding-top: 5px;
+  transform: translateX(-150px);
+}
+li img {
+    position: relative;
+    bottom: 4px;
+}
+h1.title {
+    text-align: center;
+    padding: 100px 150px 0 150px;
+    font-size: 70px;
+    color: white;
+}
+p.sub_title {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+button.explore {
+    margin-left: 630px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    transition: .5s ease;
+}
+button.explore:hover {
+    background-color: rgba(255, 255, 255, 0.829);
+    color: rgb(212, 86, 86);
+}
+h1#subject_title {
+    color: rgb(212, 86, 86);
+    padding: 80px 40px 0 180px;
+    font-size: 50px;
+}
+h1#subject_title2 {
+    color: rgb(212, 86, 86);
+    padding: 0 40px 0 180px;
+    font-size: 50px;
+    transform: translateY(-30px);
+}
+p.description {
+    position: relative;
+    left: 50%;
+    bottom: 170px;
+    width: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(212, 86, 86, 0.733);
+}
+#Type_1 {
+    transform: translateY(-150px);
+    margin: 0 0 0 50%;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid rgb(212, 86, 86);
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(212, 86, 86);
+    transition: .5s ease;
+    cursor: pointer;
+}
+#Type_1:hover {
+   background-color: rgb(212, 86, 86);
+   color: white;
+}
+.footer {
+    background-color: rgb(194, 74, 74);
+    height: 980px;
+    transform: translateY(-70px);
+}
+.title_2 {
+ position: relative;
+ top: 230px;
+ left: 60%;
+ font-size: 50px;
+ color: white;
+}
+.coach_info {
+  width: 30%;
+  position: relative;
+  top: 230px;
+  left: 60%;
+  font-size: 20px;
+  color: white;
+}
+#Coach {
+   padding: 150px 0 0 180px;
+   transform: translateY(-500px);
+}
+#prog_info {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 60px;
+    color: rgb(182, 54, 54);
+}
+p.prog_desc {
+    text-align: center;
+    padding: 0 300px 0 330px;
+    color: rgba(165, 42, 42, 0.815);
+}
+.row::after {
+   content: "";
+   display: table;
+   clear: none;
+}
+.title {
+    text-align: center;
+    transform: translateX(50px);
+    color: rgba(165, 42, 42, 0.829);
+}
+.content {
+   text-align: center;
+   transform: translateX(107px);
+   width: 70%;
+   line-height: 0.7cm;
+   color: rgba(165, 42, 42, 0.829);
+}
+#prog_img {
+    position: relative;
+    left: 100px;
+}
+.column { 
+    float: left;
+    width: 33.33%;
+    padding: 0 0px 0 50px;
+}
+.column {
+    width: 30%;
+}
+.learn {
+    margin: 0 0 0 50%;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid rgb(212, 86, 86);
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(212, 86, 86);
+    transition: .5s ease;
+    cursor: pointer;
+}
+.learn:hover {
+   background-color: rgb(212, 86, 86);
+   color: white;
+}
+.last {
+    color: brown;
+    height: 400px;
+}
